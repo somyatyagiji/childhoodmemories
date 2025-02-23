@@ -125,9 +125,9 @@ button{
     background-color: #C4AF9A;
     background-image: url('jungle\ dore..webp');
     background-size: cover;
-    opacity: 0.6;
+  
 }
-/* #textlog{
+#textlog{
     font-size: 70px;
     font-family: Garamond;
     color: #ffffff;
@@ -137,17 +137,45 @@ button{
     align-items: center;
     text-align: center;
   
-} */
+}
 .loginbox{
-    
+    padding-top: 10%;
+    padding-right: 5%;
     width: 300px;
     height: 400px;
-    background-color: black rgba(0, 0, 0, 10);
-
+    background-color: black ;
+    opacity: 0.8;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
-    opacity: 0.9;
+    
+}
+#simplename{
+    margin-left: 0%;
+    font-size: 30px;
+    font-family: Garamond;
+    font-weight: bold;
+    color:#C4AF9A;
+    margin-bottom: 20px;
+    
+}
+#names{
+    height: 10px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+
+}
+#name{
+
+    height: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
 }
