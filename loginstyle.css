@@ -120,16 +120,34 @@ button{
     height: 100vh;
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: flex;
     background-color: #C4AF9A;
     background-image: url('jungle\ dore..webp');
     background-size: cover;
     opacity: 0.6;
 }
-#textlog{
-    font-size: 30px;
+/* #textlog{
+    font-size: 70px;
     font-family: Garamond;
     color: #ffffff;
     margin-bottom: 20px;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   
+} */
+.loginbox{
+    
+    width: 300px;
+    height: 400px;
+    background-color: black rgba(0, 0, 0, 10);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    opacity: 0.9;
 }
