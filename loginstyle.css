@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.firstmain{
+    background-color:#C4AF9A;
+    max-width: 100%;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+gap: 350px;
+
+}
+.logo{
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    
+}
+.search{
+    height:30px;
+    width: 350px;
+    margin-left: 10px;
+    background-color: #ffffff;
+    
+
+}
+.search1{
+    border:2px solid #C4AF9A;
+    width:35px;
+    height: 27px;
+    margin-left: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: #f3fffb;
+}
+#personicon{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9fdfc;
+}
+.secondmain{
+    background-color: #fbffff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+button{
+    background-color: #fffefe ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+#play{
+    size:  50px;
+}
+
+
+ #heading{
+    font-size: 120px;
+    font-family: Garamond;
+    color: rgb(240, 205, 111);
+}
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.video-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images.jpeg') ;
+    padding-top: 15px;
+    opacity: 0.8;
+}
+
+/* Text overlay */
+.overlay-text {
+    height: 430px;
+    width: 810px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    /* background: rgba(0, 0, 0, 0.5); */
+    padding: 20px;
+    border-radius: 10px;
+}
+ 
+.logincontainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex;
+    background-color: #C4AF9A;
+    background-image: url('jungle\ dore..webp');
+    background-size: cover;
+    opacity: 0.6;
+}
+#textlog{
+    font-size: 30px;
+    font-family: Garamond;
+    color: #ffffff;
+    margin-bottom: 20px;
+  
+}
