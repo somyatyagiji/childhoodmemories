@@ -2,23 +2,29 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
-    /* background-color: rgb(88, 167, 167);
-     */
-     background-image: url("all in.jpg");
-     
-     
+    background-color:#C4AF9A ;
+         
 }
-/* 
-  body::before {
-    content: '';
-    background: rgba(0, 0, 0, 0.5); 
+
+/* .backimage{
+    background-image: url("all in.jpg");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(80px);
+}
+  .backimage::before {
+    content: "";
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-  } */
-  
+    /* background: rgba(0, 0, 0, 0.5);  */
+    /* background-image: inherit;
+    filter: blur(8px);
+    z-index: -1;
+  }
+   */ 
 
 
 #main{
@@ -43,6 +49,9 @@ body{
     text-align: center;
     /* margin: 10px;
     padding: 10px; */
+}
+#cartoon1{
+    height: 220px;
 }
 
 .cartoon img {
