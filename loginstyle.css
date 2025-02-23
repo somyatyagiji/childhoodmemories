@@ -120,8 +120,9 @@ button{
     height: 100vh;
     display: flex;
     justify-content: center;
-    text-align: center;
     align-items: flex;
+    text-align: center;
+   
     background-color: #C4AF9A;
     background-image: url('jungle\ dore..webp');
     background-size: cover;
@@ -145,9 +146,10 @@ button{
     background-color: black rgba(0, 0, 0, 10);
 
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
     border-radius: 10px;
     opacity: 0.9;
 }
