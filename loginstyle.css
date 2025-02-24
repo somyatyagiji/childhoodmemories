@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-
+   
 }
 .firstmain{
     background-color:#C4AF9A;
@@ -43,12 +43,15 @@ gap: 350px;
     align-items: center;
 background-color: #f3fffb;
 }
+.login{
+    background-color: #C4AF9A;
+}
 #personicon{
     height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f9fdfc;
+    background-color:#C4AF9A ;
 }
 .secondmain{
     background-color: #fbffff;
@@ -120,12 +123,12 @@ button{
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: flex;
     text-align: center;
-   
+    align-items: flex;
     background-color: #C4AF9A;
     background-image: url('jungle\ dore..webp');
-    background-size: cover;
+    /* background-size: cover; */
+    opacity: 0.9;
   
 }
 #textlog{
@@ -140,33 +143,47 @@ button{
   
 }
 .loginbox{
-    padding-top: 10%;
-    padding-right: 5%;
-    width: 300px;
-    height: 400px;
+    margin-top: 90px;
+    width: 500px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 500px;
+    position: absolute;
     background-color: black ;
     opacity: 0.8;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
     border-radius: 10px;
     
 }
+
 #simplename{
-    margin-left: 0%;
+   
+ 
     font-size: 30px;
     font-family: Garamond;
+    text-align: left;
+    display: block;
     font-weight: bold;
     color:#C4AF9A;
     margin-bottom: 20px;
     
 }
+#simplenames{
+    font-size: 15px;
+    font-family: Garamond;
+
+    font-weight: bold;
+    color:#C4AF9A;
+    margin-bottom: 20px;
+
+}
 #names{
     height: 10px;
-    width: 200px;
+    width: 300px;
     margin-bottom: 20px;
     border-radius: 10px;
     padding: 10px;
@@ -180,4 +197,22 @@ button{
     border-radius: 10px;
     padding: 10px;
     border: none;
+}
+.logoin{
+    color:white;
+
+}
+.social-icons{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: rgb(233, 230, 233);
+}
+#line{
+    height: 1px;
+    width: 500px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
 }
