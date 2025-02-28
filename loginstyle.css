@@ -29,9 +29,9 @@ gap: 350px;
 
 }
 .search1{
-    border:2px solid #C4AF9A;
+   
     width:35px;
-    height: 27px;
+    height: 30px;
     margin-left: 310px;
     display: flex;
     justify-content: center;
@@ -97,10 +97,11 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('images.jpeg') ;
-
+    background-image: url('allinone.jpg') ;
+    background-size: cover;
+    background-position: center;
     padding-top: 15px;
-    opacity: 0.8;
+    opacity: 0.;
 }
 
 /* Text overlay */
@@ -217,3 +218,96 @@ button{
     background-color: #ffffff;
     margin-bottom: 20px;
 }
+
+.video-background{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h1{
+    margin: 0;
+    text-align: center;
+    background-color: #c5c0c0;
+    font-family: Garamond;
+}
+
+main{
+    position: relative;
+    z-index: 1;
+}
+
+#childhood{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    /* background-color:#C4AF9A ; */
+   
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 70vw;
+}
+
+.cartoon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    gap: 15px;
+    
+}
+#cartoon1,#cartoon2,#cartoon3,#cartoon4{
+    height: 220px;
+    border-radius: 8px;
+}
+#cartoon5,#cartoon6,#cartoon7,#cartoon8{
+    height: 347px;
+    border-radius: 8px;
+}
+
+
+.cartoon img {
+    width: 220px; 
+    transition: transform 0.5s easy-in, filter 0.5 ease-in;
+}
+
+.cartoon span button{
+   margin-top: auto;
+   border: 2px;
+   background-color: #141313;
+   color: rgb(246, 243, 243);
+   border-radius: 4px;
+   width: 110px;
+   height: 25px;
+   font-size: 18px;
+   font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.cartoon span button:hover{
+    transition: transform 0.4s ease-in-out;
+    transform: scale(1.2);
+}
+
+.cartoon img:hover{
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
